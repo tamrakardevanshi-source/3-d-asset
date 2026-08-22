@@ -1,0 +1,39 @@
+/* -----------------------------
+   Global Reset
+----------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -----------------------------
+   Root Layout
+----------------------------- */
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* -----------------------------
+   Body
+----------------------------- */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+
+/* -----------------------------
+   Canvas
+----------------------------- */
+
+canvas {
+  display: block;
+}
